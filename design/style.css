@@ -1,0 +1,209 @@
+body{
+	 font-family: 'Montserrat', sans-serif;
+}
+.bg-top{
+	position:relative;
+	left:65.625rem;
+	bottom:3.125rem;
+	
+	
+}
+.main-screen{
+	
+	margin:100 auto 100 auto;
+	
+	background-color:hsl(240, 78%, 98%)
+}
+.bg-bottom{
+	position:relative;
+	right:370px;
+	bottom:130px;
+}
+.heading{
+	text-align:center;
+}
+.center{
+	position:absolute;
+	left:45%;
+	
+	 display: inline-block;
+	
+}
+/* toggle checkbox*/
+input[type="checkbox"]{
+	position:relative;
+	top:10px;
+	height:20px;
+	width:40px;
+	-webkit-appearance: none;
+	background:#03a9f4;
+	outline:none;
+	border-radius:20px;
+	
+	transition:.5s;
+}
+input:checked[type="checkbox"]{
+	background:#03a9f4;
+}
+input[type="checkbox"]:before{
+	content:'';
+	position:absolute;
+	
+	width:20px;
+	height:20px;
+	border-radius: 20px;
+	top:0px;
+	left:0px;
+	transform:scale(1.1);
+	background:#fff;
+	transition:.5s;
+}
+input:checked[type="checkbox"]:before{
+	left:20px;
+}
+
+/*3 div code*/
+.basic{
+	position:absolute;
+	right:54.5%;
+	top:160px;
+	
+	bottom:250px;
+	height:300px;
+	width:240px;
+	border-radius: 10px;
+	background-color: white;
+	
+	
+}
+	
+.professional{
+	position:absolute;
+	right:34.5%;
+	top:150px;
+	bottom:250px;
+	height:330px;
+	width:270px;
+	border-radius: 10px;
+	background-color: hsl(237, 63%, 64%);
+
+}
+.master{
+position:absolute;
+	right:16.5%;
+	top:160px;
+	bottom:250px;
+	height:300px;
+	width:240px;
+	border-radius: 10px;
+	background-color: white;
+	
+}
+.h3-heading1{
+	text-align:center;
+	color:grey;
+	
+}
+.h3-heading{
+	text-align:center;
+	color:white;
+	
+}
+.price1{
+	font-size:40px;
+
+}
+.price{
+	font-size:40px;
+	color:white;
+
+}
+.doller1{
+	color:white;
+}
+.hr-classes{
+	width:80%;
+	align: center;
+}
+.basic-cont1{
+	text-align:center;
+	font-size:15px;
+	line-height:0.5;
+	color:grey;
+}
+.basic-cont{
+	text-align:center;
+	font-size:15px;
+	line-height:0.5;
+	color:white;
+}
+
+  .BUTTON_CHY{
+	     
+		 background: hsl(237, 63%, 64%);
+		 
+		 -webkit-border-radius: 10px;
+		 -moz-border-radius: 10px;
+		 border-radius: 10px;
+		 color: #FFFFFF;
+		 font-family: 'Montserrat', sans-serif;
+		 font-size: 15px;
+		 font-weight: 100;
+		 padding: 5px 10px 5px 10px;
+		 width:80%;
+         text-shadow: 1px 1px 20px #000000;
+          border: solid #337FED 1px;
+          text-decoration: none;
+         display: inline-block;
+         cursor: pointer;
+          text-align: center;
+		  align:center;
+	    }
+	  
+	  .BUTTON_CHY:hover {
+		  border: solid blue 2px;
+		  background: white;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+text-decoration: none;
+color:blue;
+		  
+	  }
+	  
+	  
+	  .BUTTON_CHY2{
+	     
+		 background: #11CDD4;
+		 background-color:white;
+		 -webkit-border-radius: 10px;
+		 -moz-border-radius: 10px;
+		 border-radius: 10px;
+		
+		 font-family: 'Montserrat', sans-serif;
+		 font-size: 15px;
+		 font-weight: 100;
+		 padding: 5px 10px 5px 10px;
+		 width:80%;
+         text-shadow: 1px 1px 20px #000000;
+          border: solid #337FED 1px;
+          text-decoration: none;
+         display: inline-block;
+         cursor: pointer;
+          text-align: center;
+		  align:center;
+		  color:hsl(237, 63%, 64%);
+	    }
+	  
+	  .BUTTON_CHY2:hover {
+		  border: solid white 2px;
+		  background: hsl(237, 63%, 64%);
+
+
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+text-decoration: none;
+color:white;
+		  
+	  }
