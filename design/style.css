@@ -207,3 +207,78 @@ text-decoration: none;
 color:white;
 		  
 	  }
+
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  body{
+	 font-family: 'Montserrat', sans-serif;
+}
+.bg-top{
+	position:relative;
+	left:15rem;
+	bottom:4.125rem;
+	
+	
+}
+.main-screen{
+	
+	
+	height:1200px;
+	
+	
+	background-color:hsl(240, 78%, 98%)
+}
+.bg-bottom{
+	position:relative;
+	right:370px;
+	bottom:50px;
+}
+.heading{
+	text-align:center;
+}
+.center{
+	position:absolute;
+	left:30%;
+	
+	 display: inline-block;
+	
+}
+.basic{
+	position:absolute;
+	right:20.5%;
+	top:160px;
+	
+	height:330px;
+	width:270px;
+	
+	border-radius: 10px;
+	background-color: white;
+	
+	
+}
+.professional{
+	position:absolute;
+	right:20.5%;
+	top:510px;
+	bottom:250px;
+	height:330px;
+	width:270px;
+	border-radius: 10px;
+	background-color: hsl(237, 63%, 64%);
+
+}
+.master{
+position:absolute;
+	right:20.5%;
+	top:850px;
+	bottom:250px;
+	height:330px;
+	width:270px;
+	border-radius: 10px;
+	background-color: white;
+	
+}
+	
+}
